@@ -1,0 +1,24 @@
+# FastAPI and Uvicorn
+fastapi
+uvicorn[standard]
+
+# Celery and RedisLite (as broker/backend)
+celery[redis]
+redislite
+
+# WebSockets library (for client, FastAPI handles server-side)
+websockets
+
+# HTTP client for console client to interact with REST API
+aiohttp
+
+# For .env file, if you choose to use it
+# python-dotenv
+
+# Add other dependencies from your Lab 1 and Lab 2 if needed, e.g.:
+# sqlalchemy
+# psycopg2-binary (if using PostgreSQL)у
+# pydantic[email]
+# passlib[bcrypt]
+# python-jose[cryptography]
+# python-multipart # For file uploads with FastAPI 

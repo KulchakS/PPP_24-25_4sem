@@ -1,8 +1,6 @@
+from fastapi import FastAPI
+from app.api.library import router
 
-def main():
-    # Ваш код здесь
-    pass
+app = FastAPI()
 
-if __name__ == "__main__":
-    main()
-
+app.include_router(router)
